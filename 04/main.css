@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+#cabecalho h1{
+    text-align: center;
+    color:darkgrey;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+form{
+    width: 60%;
+    margin-left: 20%;
+}
+fieldset{
+    padding-left: 15px;
+}
+
+
+input{
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+p{
+
+  text-align: center;  
+  margin-top: 30px;
+}
+
+#direita{
+    float: left;
+    padding-left: 106px;
+}
+
+#direita1{
+    float: left;
+    padding-left: 239px;
+}
+
+#cpf{
+    float: right;
+    
+}
+cpf label{
+    float: right;
+    
+}
+
+#rg{
+    float: left;
+    
+}
+
+#genero{
+    float: left;
+
+}
+
+#endereco{
+    clear: both;
+}
+
+#dtNasc{
+    float: right;
+}
+
+#civil{
+
+    clear: both;
+}

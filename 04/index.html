@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ficha Cadastral</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="cabecalho">
+
+        <h1>Ficha Cadastral</h1>
+
+    </div>
+    <form action="cadastrar.jsp" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+           <label for="nome">Nome:<br>
+                    <input type="text" name="nome" id="nome" size="80" placeholder="Digite seu nome">
+            </label>
+        </br>
+            
+            <div id="rg">
+            <label for="rg">RG:<br>
+                    <input type="text" name="rg" id="rg" size="30" placeholder="Digite seu rg">
+            </label>
+            </div>
+            
+        <div id="direita">
+                
+            <div id="cpf">
+                <label for="cpf">CPF:<br>
+                <input type="text" name="cpf" id="cpf" size="30" placeholder="Digite seu cpf">
+                </label>
+            </div>
+        </div>
+        </br>
+
+        <div id="endereco">
+            <label for="endereco">Endereço:<br>
+                <input type="text" name="endereco" id="endereco" size="80" placeholder="Digite seu endereco">
+            </label>
+        </div>
+        </br>
+
+            <div id="genero">
+            <label for="genero">Gênero:<br>
+                <select name="cars">
+                        <option value="feminino">Feminino</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="trans-genero">Trans-gênero</option>
+                        <option value="outros">Outros</option>
+
+                    </select>
+                </label>
+            </div>
+
+            <div id="direita1">
+                    <label for="DtNasc">Data de Nascimento: <br>
+
+                        <input type="text" name="DtNasc" id="DtNasc" size="30" placeholder="Exemplo : 14/07/1996">
+                    </label>
+                    <br>
+            </div>                
+
+            <div id="civil">
+                <label for="civil">Situação Civil: <br>
+                    Solteiro(a) <input type="radio" name="civil" id="solteiro">
+                    Casado(a)<input type="radio" name="civil" id="casado">
+                    Viúvo(a)<input type="radio" name="civil" id="viuvo"> 
+
+                </label>
+            </div>
+
+            <p>
+                    <input class="submit" type="submit" value="Cadastrar Pessoa">
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
